@@ -1,0 +1,49 @@
+<svg width="700" height="140" viewBox="0 0 700 140" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .col { font-family: 'Courier New', monospace; font-size: 14px; fill: #FF0000; }
+      .bg { fill: #0D0D0D; }
+    </style>
+  </defs>
+  <rect class="bg" width="700" height="140"/>
+
+  <!-- 35 колонок падающих символов, каждая со своей задержкой -->
+  <g>
+    <!-- generate columns programmatically-like, hand-authored for reliability -->
+    <text class="col" x="0"   y="20"><animate attributeName="y" values="-20;160;-20" dur="3.2s" repeatCount="indefinite"/>1</text>
+    <text class="col" x="20"  y="40" opacity="0.7"><animate attributeName="y" values="-20;160;-20" dur="2.6s" begin="0.3s" repeatCount="indefinite"/>0</text>
+    <text class="col" x="40"  y="60" opacity="0.5"><animate attributeName="y" values="-20;160;-20" dur="3.8s" begin="0.6s" repeatCount="indefinite"/>1</text>
+    <text class="col" x="60"  y="10" opacity="0.9"><animate attributeName="y" values="-20;160;-20" dur="2.9s" begin="0.9s" repeatCount="indefinite"/>0</text>
+    <text class="col" x="80"  y="30" opacity="0.6"><animate attributeName="y" values="-20;160;-20" dur="3.4s" begin="0.2s" repeatCount="indefinite"/>1</text>
+    <text class="col" x="100" y="50" opacity="0.8"><animate attributeName="y" values="-20;160;-20" dur="2.4s" begin="0.5s" repeatCount="indefinite"/>0</text>
+    <text class="col" x="120" y="15" opacity="0.4"><animate attributeName="y" values="-20;160;-20" dur="3.6s" begin="0.8s" repeatCount="indefinite"/>1</text>
+    <text class="col" x="140" y="35" opacity="0.7"><animate attributeName="y" values="-20;160;-20" dur="2.8s" begin="1.1s" repeatCount="indefinite"/>0</text>
+    <text class="col" x="160" y="55" opacity="0.5"><animate attributeName="y" values="-20;160;-20" dur="3.1s" begin="0.4s" repeatCount="indefinite"/>1</text>
+    <text class="col" x="180" y="25" opacity="0.9"><animate attributeName="y" values="-20;160;-20" dur="2.5s" begin="0.7s" repeatCount="indefinite"/>0</text>
+    <text class="col" x="200" y="45" opacity="0.6"><animate attributeName="y" values="-20;160;-20" dur="3.7s" begin="1.0s" repeatCount="indefinite"/>1</text>
+    <text class="col" x="220" y="5"  opacity="0.8"><animate attributeName="y" values="-20;160;-20" dur="2.7s" begin="0.15s" repeatCount="indefinite"/>0</text>
+    <text class="col" x="240" y="65" opacity="0.4"><animate attributeName="y" values="-20;160;-20" dur="3.3s" begin="0.55s" repeatCount="indefinite"/>1</text>
+    <text class="col" x="260" y="20" opacity="0.7"><animate attributeName="y" values="-20;160;-20" dur="2.9s" begin="0.95s" repeatCount="indefinite"/>0</text>
+    <text class="col" x="280" y="40" opacity="0.5"><animate attributeName="y" values="-20;160;-20" dur="3.5s" begin="0.35s" repeatCount="indefinite"/>1</text>
+    <text class="col" x="300" y="10" opacity="0.9"><animate attributeName="y" values="-20;160;-20" dur="2.3s" begin="0.75s" repeatCount="indefinite"/>0</text>
+    <text class="col" x="320" y="30" opacity="0.6"><animate attributeName="y" values="-20;160;-20" dur="3.9s" begin="1.05s" repeatCount="indefinite"/>1</text>
+    <text class="col" x="340" y="50" opacity="0.8"><animate attributeName="y" values="-20;160;-20" dur="2.6s" begin="0.25s" repeatCount="indefinite"/>0</text>
+    <text class="col" x="360" y="15" opacity="0.4"><animate attributeName="y" values="-20;160;-20" dur="3.2s" begin="0.65s" repeatCount="indefinite"/>1</text>
+    <text class="col" x="380" y="35" opacity="0.7"><animate attributeName="y" values="-20;160;-20" dur="2.8s" begin="0.85s" repeatCount="indefinite"/>0</text>
+    <text class="col" x="400" y="55" opacity="0.5"><animate attributeName="y" values="-20;160;-20" dur="3.4s" begin="0.45s" repeatCount="indefinite"/>1</text>
+    <text class="col" x="420" y="25" opacity="0.9"><animate attributeName="y" values="-20;160;-20" dur="2.5s" begin="1.15s" repeatCount="indefinite"/>0</text>
+    <text class="col" x="440" y="45" opacity="0.6"><animate attributeName="y" values="-20;160;-20" dur="3.6s" begin="0.1s" repeatCount="indefinite"/>1</text>
+    <text class="col" x="460" y="5"  opacity="0.8"><animate attributeName="y" values="-20;160;-20" dur="2.7s" begin="0.5s" repeatCount="indefinite"/>0</text>
+    <text class="col" x="480" y="65" opacity="0.4"><animate attributeName="y" values="-20;160;-20" dur="3.1s" begin="0.9s" repeatCount="indefinite"/>1</text>
+    <text class="col" x="500" y="20" opacity="0.7"><animate attributeName="y" values="-20;160;-20" dur="2.9s" begin="0.3s" repeatCount="indefinite"/>0</text>
+    <text class="col" x="520" y="40" opacity="0.5"><animate attributeName="y" values="-20;160;-20" dur="3.7s" begin="0.7s" repeatCount="indefinite"/>1</text>
+    <text class="col" x="540" y="10" opacity="0.9"><animate attributeName="y" values="-20;160;-20" dur="2.4s" begin="1.0s" repeatCount="indefinite"/>0</text>
+    <text class="col" x="560" y="30" opacity="0.6"><animate attributeName="y" values="-20;160;-20" dur="3.8s" begin="0.2s" repeatCount="indefinite"/>1</text>
+    <text class="col" x="580" y="50" opacity="0.8"><animate attributeName="y" values="-20;160;-20" dur="2.6s" begin="0.6s" repeatCount="indefinite"/>0</text>
+    <text class="col" x="600" y="15" opacity="0.4"><animate attributeName="y" values="-20;160;-20" dur="3.3s" begin="0.95s" repeatCount="indefinite"/>1</text>
+    <text class="col" x="620" y="35" opacity="0.7"><animate attributeName="y" values="-20;160;-20" dur="2.8s" begin="0.4s" repeatCount="indefinite"/>0</text>
+    <text class="col" x="640" y="55" opacity="0.5"><animate attributeName="y" values="-20;160;-20" dur="3.5s" begin="0.8s" repeatCount="indefinite"/>1</text>
+    <text class="col" x="660" y="25" opacity="0.9"><animate attributeName="y" values="-20;160;-20" dur="2.5s" begin="0.15s" repeatCount="indefinite"/>0</text>
+    <text class="col" x="680" y="45" opacity="0.6"><animate attributeName="y" values="-20;160;-20" dur="3.9s" begin="0.55s" repeatCount="indefinite"/>1</text>
+  </g>
+</svg>
